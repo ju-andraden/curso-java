@@ -32,6 +32,6 @@ public class Carro {
             valorRevenda = 0;
         }
 
-        return valorRevenda;
+        return valorRevenda;    
     }
 }

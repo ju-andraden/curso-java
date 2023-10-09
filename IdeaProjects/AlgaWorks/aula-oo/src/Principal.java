@@ -29,24 +29,5 @@ public class Principal {
 
         meuCarro.imprimirResumoDepreciacao();
         seuCarro.imprimirResumoDepreciacao();
-
-//        double valorRevendaMeuCarro = meuCarro.calcularValorRevenda();
-//
-//        System.out.printf("Tempo de uso (anos): %d%n", 2023 - meuCarro.anoFabricacao);
-//        System.out.printf("Valor de revenda: %6.2f%n", valorRevendaMeuCarro);
-
-//        System.out.println("---------");
-//        System.out.println("Meu carro");
-//        System.out.printf("Modelo: %s%n", meuCarro.modelo);
-//        System.out.printf("Ano: %d%n", meuCarro.anoFabricacao);
-//        System.out.printf("Proprietária: %s%n", meuCarro.proprietaria.nome);
-//
-//        System.out.println();
-//
-//        System.out.println("---------");
-//        System.out.println("Seu carro");
-//        System.out.printf("Modelo: %s%n", seuCarro.modelo);
-//        System.out.printf("Ano: %d%n", seuCarro.anoFabricacao);
-//        System.out.printf("Proprietária: %s%n", seuCarro.proprietaria.nome);
     }
 }
