@@ -2,10 +2,12 @@ public class Principal {
 
     public static void main(String[] args) {
         CalculadoraImc calculadoraImc = new CalculadoraImc();
-        double altura = 1.62;
-        double peso = 71.5;
 
-        IndiceMassaCorporal imc = calculadoraImc.calcular(altura, peso);
+        Paciente pacienteJuliana = new Paciente();
+        pacienteJuliana.altura = 1.62;
+        pacienteJuliana.peso = 71.5;
+
+        IndiceMassaCorporal imc = calculadoraImc.calcular(pacienteJuliana);
 
         if (imc.estaComObesidade()) {
         System.out.printf("Paciente com altura de %.2f e peso de %.2f " +
