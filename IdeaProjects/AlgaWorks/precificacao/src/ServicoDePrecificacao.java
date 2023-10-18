@@ -1,6 +1,6 @@
 public class ServicoDePrecificacao {
 
-    void definirPrecoVenda(Produto produto, double percentualMargemLucro) {
+    void definirPrecoVenda(final Produto produto, final double percentualMargemLucro) {
 
          double precoVendaCalculado = Matematica.calcularAcrescimo(
                  produto.precoCusto, percentualMargemLucro);
