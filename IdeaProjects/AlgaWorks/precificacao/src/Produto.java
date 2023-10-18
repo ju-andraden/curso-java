@@ -5,15 +5,16 @@ public class Produto {
     double precoVenda;
 
     static double calcularCustosTotais(final Produto produto) {
+
         return produto.precoCusto + Produto.custoEmbalagem;
     }
 
     void alterarPrecoCusto(final double precoCusto) {
+
         this.precoCusto = precoCusto;
     }
 
     static void alterarCustoEmbalagem(final double custoEmbalagem) {
-
         Produto.custoEmbalagem = custoEmbalagem;
     }
 
