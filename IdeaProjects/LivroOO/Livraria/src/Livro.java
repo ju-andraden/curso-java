@@ -3,7 +3,7 @@ public class Livro {
     String descricao;
     double valor;
     String isbn;
-
+    Autor autor;
     void mostrarDetalhes() {
         System.out.println("Mostrando detalhes do livro: ");
         System.out.println("Nome: " + nome);
