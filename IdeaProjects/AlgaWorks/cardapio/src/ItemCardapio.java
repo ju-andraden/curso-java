@@ -10,5 +10,4 @@ public class ItemCardapio {
     void imprimir() {
         System.out.printf("%s x R$%.2f%n", descricao, preco);
     }
-
 }
