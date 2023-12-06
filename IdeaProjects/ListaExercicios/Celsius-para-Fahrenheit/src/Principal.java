@@ -12,6 +12,6 @@ public class Principal {
 
         fahrenheit = (9 * celsius + 160) / 5;
 
-        System.out.println("A temperatura convertida para graus Fahrenheit é: \n" + fahrenheit);
+        System.out.printf("A temperatura convertida para graus Fahrenheit é: %.2f%n", fahrenheit);
     }
 }
