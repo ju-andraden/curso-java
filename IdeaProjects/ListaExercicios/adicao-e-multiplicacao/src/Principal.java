@@ -19,12 +19,12 @@ public class Principal {
         System.out.println("Digite o valor de D: ");
         D = entrada.nextInt();
 
-        System.out.printf("A soma de A + B é: " + (A + B) + " e a multiplicação de A * B é: " + (A * B) + ".\n");
-        System.out.printf("A soma de A + C é: " + (A + C) + " e a multiplicação de A * C é: " + (A * C) + ".\n");
-        System.out.printf("A soma de A + D é: " + (A + D) + " e a multiplicação de A * D é: " + (A * D) + ".\n");
-        System.out.printf("A soma de B + C é: " + (B + C) + " e a multiplicação de B * C é: " + (B * C) + ".\n");
-        System.out.printf("A soma de B + D é: " + (B + D) + " e a multiplicação de B * D é: " + (B * D) + ".\n");
-        System.out.printf("A soma de C + D é: " + (C + D) + " e a multiplicação de C * D é: " + (C * D) + ".\n");
+        System.out.println("A soma de A + B é: " + (A + B) + " e a multiplicação de A * B é: " + (A * B));
+        System.out.println("A soma de A + C é: " + (A + C) + " e a multiplicação de A * C é: " + (A * C));
+        System.out.println("A soma de A + D é: " + (A + D) + " e a multiplicação de A * D é: " + (A * D));
+        System.out.println("A soma de B + C é: " + (B + C) + " e a multiplicação de B * C é: " + (B * C));
+        System.out.println("A soma de B + D é: " + (B + D) + " e a multiplicação de B * D é: " + (B * D));
+        System.out.println("A soma de C + D é: " + (C + D) + " e a multiplicação de C * D é: " + (C * D));
 
     }
 }
