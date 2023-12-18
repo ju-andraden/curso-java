@@ -6,7 +6,6 @@ public class Principal {
         Scanner entrada = new Scanner(System.in);
 
         int A, B, C, D;
-        int adicao, multiplicacao;
 
         System.out.println("Digite o valor de A: ");
         A = entrada.nextInt();
