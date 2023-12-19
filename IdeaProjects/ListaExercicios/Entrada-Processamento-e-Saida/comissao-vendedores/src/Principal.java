@@ -2,29 +2,33 @@ import java.util.Scanner;
 
 public class Principal {
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
-
-        int idVendedor;
+        int codigoVendedor;
         int codigoPeca;
         double precoPeca;
-        double qtdPecas;
-        double valorComissao;
+        int quantidadePecas;
         double comissaoVenda = 0.5;
 
-        System.out.println("Digite a identificação do vendedor: ");
-        idVendedor = entrada.nextInt();
+        var entrada = new Scanner(System.in);
 
-        System.out.println("Digite o código da peça: ");
+        System.out.print("Digite a identificação do vendedor: ");
+        codigoVendedor = entrada.nextInt();
+
+        System.out.print("Digite o código da peça: ");
         codigoPeca = entrada.nextInt();
 
-        System.out.println("Digite o preço unitário da peça: ");
+        System.out.print("Digite o preço unitário da peça: ");
         precoPeca = entrada.nextDouble();
 
-        System.out.println("Digite a quantidade de peças vendidas: ");
-        qtdPecas = entrada.nextDouble();
+        System.out.print("Digite a quantidade de peças vendidas: ");
+        quantidadePecas = entrada.nextInt();
 
-        valorComissao = (precoPeca * qtdPecas) * comissaoVenda;
+        var valorComissao = (precoPeca * quantidadePecas) * comissaoVenda;
 
-        System.out.printf("O valor da comissão será de: R$%.2f.\n ", valorComissao);
+        System.out.println("---------------------");
+        System.out.println("Código do vendedor: " + codigoVendedor);
+        System.out.println("Código da peça: " + codigoPeca);
+        System.out.println("Preço da peça: " + precoPeca);
+        System.out.println("Quantidade de peças: " + quantidadePecas);
+        System.out.printf("O valor da comissão será de: R$ %.2f%n", valorComissao);
     }
 }

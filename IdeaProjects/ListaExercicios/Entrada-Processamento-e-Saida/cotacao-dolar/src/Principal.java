@@ -2,20 +2,19 @@ import java.util.Scanner;
 
 public class Principal {
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
-
         double contacaoDolar;
         double valorEmDolar;
-        double valorEmReal;
 
-        System.out.println("Digite a cotação do dólar (USD): ");
+        var entrada = new Scanner(System.in);
+
+        System.out.print("Digite a cotação do dólar (USD): ");
         contacaoDolar = entrada.nextDouble();
 
-        System.out.println("Digite o valor em dólar (USD): ");
+        System.out.print("Digite o valor em dólar (USD): ");
         valorEmDolar = entrada.nextDouble();
 
-        valorEmReal = contacaoDolar * valorEmDolar;
+        var valorEmReal = contacaoDolar * valorEmDolar;
 
-        System.out.printf("O valor em reais (R$) é: " + valorEmReal +  "\n");
+        System.out.printf("O valor em reais (R$) é: %.2f%n", valorEmReal);
     }
 }

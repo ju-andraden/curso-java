@@ -2,18 +2,18 @@ import java.util.Scanner;
 
 public class Principal {
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
+        double quantidadeMinima;
+        double quantidadeMaxima;
 
-        double qtdMinima;
-        double qtdMaxima;
+        var entrada = new Scanner(System.in);
 
         System.out.println("Digite a quantidade minima de estoque: ");
-        qtdMinima = entrada.nextDouble();
+        quantidadeMinima = entrada.nextDouble();
 
         System.out.println("Digite a quantidade maxima de estoque: ");
-        qtdMaxima = entrada.nextDouble();
+        quantidadeMaxima = entrada.nextDouble();
 
-        double estoqueMedio = (qtdMinima + qtdMaxima) / 2;
+        var estoqueMedio = (quantidadeMinima + quantidadeMaxima) / 2;
 
         System.out.println("Estoque médio: " + estoqueMedio);
     }
