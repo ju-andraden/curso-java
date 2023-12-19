@@ -10,16 +10,16 @@ public class Principal {
 
         var entrada = new Scanner(System.in);
 
-        System.out.println("Digite o valor de A: ");
+        System.out.print("Digite o valor de A: ");
         a = entrada.nextInt();
 
-        System.out.println("Digite o valor de B: ");
+        System.out.print("Digite o valor de B: ");
         b = entrada.nextInt();
 
-        System.out.println("Digite o valor de C: ");
+        System.out.print("Digite o valor de C: ");
         c = entrada.nextInt();
 
-        System.out.println("Digite o valor de D: ");
+        System.out.print("Digite o valor de D: ");
         d = entrada.nextInt();
 
         System.out.println("A soma de A + B é: " + (a + b) + " e a multiplicação de A * B é: " + (a * b));

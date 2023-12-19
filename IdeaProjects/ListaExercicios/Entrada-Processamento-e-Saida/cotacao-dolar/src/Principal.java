@@ -15,6 +15,6 @@ public class Principal {
 
         var valorEmReal = contacaoDolar * valorEmDolar;
 
-        System.out.printf("O valor em reais (R$) é: %.2f%n", valorEmReal);
+        System.out.printf("O valor em reais (R$) é: %.2f", valorEmReal);
     }
 }
