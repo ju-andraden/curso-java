@@ -7,7 +7,8 @@ public class GestorDeImpostos {
     public void adicionar(Pessoa pessoa) {
         double imposto = pessoa.calcularImpostos();
 
-        //this.valorTotalImpostos = this.valorTotalImpostos + imposto;
+        System.out.printf("Impostos devidos de %s: %.2f%n", pessoa.getNome(), imposto);
+
         this.valorTotalImpostos += imposto;
     }
 

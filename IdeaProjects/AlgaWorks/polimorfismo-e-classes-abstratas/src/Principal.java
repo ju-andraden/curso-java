@@ -18,10 +18,6 @@ public class Principal {
         gestorImpostos.adicionar(petShop);
         gestorImpostos.adicionar(desenv);
 
-        System.out.printf("Impostos devidos de %s %.2f\n", ju.getNome(), ju.calcularImpostos());
-        System.out.printf("Impostos devidos de %s %.2f\n", caio.getNome(), caio.calcularImpostos());
-        System.out.printf("Impostos devidos de %s %.2f\n", petShop.getNome(), petShop.calcularImpostos());
-        System.out.printf("Impostos devidos de %s %.2f\n", desenv.getNome(), desenv.calcularImpostos());
         System.out.printf("Total de impostos: %.2f", gestorImpostos.getValorTotalImpostos());
     }
 }

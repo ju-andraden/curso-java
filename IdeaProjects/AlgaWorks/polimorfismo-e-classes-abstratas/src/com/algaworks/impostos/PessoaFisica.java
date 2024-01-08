@@ -15,11 +15,14 @@ public class PessoaFisica extends Pessoa {
         return this.receitaAnual;
     }
 
+    @Override
     public double calcularImpostos() {
-        if (getReceitaAnual() <= RECEITA_ANUAL_ISENCAO) {
-            return 0;
+        double valorImpostos = 0;
+
+        if (getReceitaAnual() > RECEITA_ANUAL_ISENCAO) {
+            valorImpostos = getReceitaAnual() * ALIQUOTA_IMPOSTO_RENDA;
         }
 
-        return this.receitaAnual * ALIQUOTA_IMPOSTO_RENDA;
+        return valorImpostos;
     }
 }

@@ -8,6 +8,7 @@ public class EmpresaSimples extends PessoaJuridica {
         super(nome, faturamentoAnual, despesaAnual);
     }
 
+    @Override
     public double calcularImpostos() {
         return getFaturamentoAnual() * ALIQUOTA_IMPOSTO_FATURAMENTO;
     }
